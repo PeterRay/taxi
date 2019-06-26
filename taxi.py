@@ -8,13 +8,7 @@ class room:
         self._roomName = "cucina base" 
         # cucina -> fisso 800eu / 1000eu    
         # 
-
-        self._squareMeter = 10                          # dimensioni bagno (std==10mq)
-        self._standardPriceForTenSquareMeters = 800.0   
-        self._standardPriceForSanitary = 250.0 
-        self._standardPriceForH2O = 120.0 
-        self._sizeTot=0                                 # costo parziale per dimensioni bagno        
-
+       
         self._h2oPointsNum = 0           # numero punti acqua (120-150 eu cad)
         self._sanitaryNum = 0            # numero sanitari
         self._totMaterialCosts = 0.0     # sum of materials costs
